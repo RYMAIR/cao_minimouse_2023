@@ -88,4 +88,31 @@
       )
     )
   )
+
+  (symbol (lib_id "minimouse:N20_w_encoder") (at 185.42 90.17 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cc4063e6-ce4b-4ca4-b71c-8097ce4fd558)
+    (property "Reference" "M3" (at 187.96 88.9 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "N20_encoder" (at 187.96 91.44 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "minimouse:N20_with_encoder" (at 187.96 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 185.42 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "minimouse"
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/7f113667-692a-4f4d-b16f-621d32f3f136"
+          (reference "M3") (unit 1)
+        )
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3975acd0-18ad-47bc-9ce1-d8c4d864aafe"
+          (reference "M4") (unit 1)
+        )
+      )
+    )
+  )
 )
